@@ -12,9 +12,9 @@ GPIO_AMBER_LIGHT = 27      # led for internet marginally working
 GPIO_RED_LIGHT = 22        # led for internet is not working
 
 DELAY_BETWEEN_PINGS = 1    # delay in seconds
-DELAY_BETWEEN_TESTS = 60  # delay in seconds
+DELAY_BETWEEN_TESTS = 30  # delay in seconds
 
-SITES = ["google.com", "comcast.com"]
+SITES = ["google.com", "example.com"]
 
 # print messages for debugging when indicator is set
 def debug_message(debug_indicator, output_message):
